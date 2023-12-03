@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4750DA1E2B1D417100B4732D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4750DA1D2B1D417100B4732D /* README.md */; };
 		477E93C92B1B8F290047F720 /* GamifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E93C82B1B8F290047F720 /* GamifyApp.swift */; };
 		477E93CB2B1B8F290047F720 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E93CA2B1B8F290047F720 /* ContentView.swift */; };
 		477E93CD2B1B8F320047F720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477E93CC2B1B8F320047F720 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 		47EE5FB92B1BF7AD00B6907B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EE5FB82B1BF7AD00B6907B /* LoginViewController.swift */; };
 		47EE5FBB2B1BF7C300B6907B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EE5FBA2B1BF7C300B6907B /* SignUpViewController.swift */; };
 		47EE5FBD2B1BFF1700B6907B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EE5FBC2B1BFF1700B6907B /* LoginView.swift */; };
+		47EE5FC12B1C1DA700B6907B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EE5FC02B1C1DA700B6907B /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4750DA1D2B1D417100B4732D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		477E93C52B1B8F290047F720 /* Gamify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gamify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		477E93C82B1B8F290047F720 /* GamifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamifyApp.swift; sourceTree = "<group>"; };
 		477E93CA2B1B8F290047F720 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		47EE5FB82B1BF7AD00B6907B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		47EE5FBA2B1BF7C300B6907B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		47EE5FBC2B1BFF1700B6907B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		47EE5FC02B1C1DA700B6907B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		477E93BC2B1B8F290047F720 = {
 			isa = PBXGroup;
 			children = (
+				4750DA1D2B1D417100B4732D /* README.md */,
 				477E93C72B1B8F290047F720 /* Gamify */,
 				477E93DD2B1B8F330047F720 /* GamifyTests */,
 				477E93E72B1B8F330047F720 /* GamifyUITests */,
@@ -113,6 +118,7 @@
 				47EE5FB82B1BF7AD00B6907B /* LoginViewController.swift */,
 				47EE5FBA2B1BF7C300B6907B /* SignUpViewController.swift */,
 				47EE5FBC2B1BFF1700B6907B /* LoginView.swift */,
+				47EE5FC02B1C1DA700B6907B /* NetworkManager.swift */,
 			);
 			path = Gamify;
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4750DA1E2B1D417100B4732D /* README.md in Resources */,
 				477E93D02B1B8F320047F720 /* Preview Assets.xcassets in Resources */,
 				477E93CD2B1B8F320047F720 /* Assets.xcassets in Resources */,
 			);
@@ -276,6 +283,7 @@
 				47EE5FBD2B1BFF1700B6907B /* LoginView.swift in Sources */,
 				477E93D52B1B8F320047F720 /* Gamify.xcdatamodeld in Sources */,
 				477E93D22B1B8F320047F720 /* Persistence.swift in Sources */,
+				47EE5FC12B1C1DA700B6907B /* NetworkManager.swift in Sources */,
 				477E93CB2B1B8F290047F720 /* ContentView.swift in Sources */,
 				47EE5FB92B1BF7AD00B6907B /* LoginViewController.swift in Sources */,
 				477E93C92B1B8F290047F720 /* GamifyApp.swift in Sources */,
