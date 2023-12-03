@@ -7,12 +7,19 @@
 
 import SwiftUI
 
-struct LoginView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct LoginView: UIViewControllerRepresentable {
+    @Binding var isLoggedIn: Bool
+
+    func makeUIViewController(context: Context) -> UIViewController {
+        LoginViewController(loginStatus: $isLoggedIn)
+    }
+
+    func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}
+}
+
+struct LoginView_Previews: PreviewProvider {
+    static var previews: some View {
+        LoginView(isLoggedIn: .constant(false))
     }
 }
 
-#Preview {
-    LoginView()
-}

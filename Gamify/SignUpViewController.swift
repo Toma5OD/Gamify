@@ -1,8 +1,15 @@
-//
-//  SignUpViewController.swift
-//  Gamify
-//
-//  Created by Tomás Ó Dálaigh on 02/12/2023.
-//
+import UIKit
 
-import Foundation
+class SignUpViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.backgroundColor = .white
+
+        setupSignUpUI()
+    }
+
+    func setupSignUpUI() {
+        // Add your code here to setup UI elements like text fields and buttons
+    }
+}

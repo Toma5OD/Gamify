@@ -16,6 +16,9 @@
 		477E93DF2B1B8F330047F720 /* GamifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E93DE2B1B8F330047F720 /* GamifyTests.swift */; };
 		477E93E92B1B8F330047F720 /* GamifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E93E82B1B8F330047F720 /* GamifyUITests.swift */; };
 		477E93EB2B1B8F330047F720 /* GamifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477E93EA2B1B8F330047F720 /* GamifyUITestsLaunchTests.swift */; };
+		47EE5FB92B1BF7AD00B6907B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EE5FB82B1BF7AD00B6907B /* LoginViewController.swift */; };
+		47EE5FBB2B1BF7C300B6907B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EE5FBA2B1BF7C300B6907B /* SignUpViewController.swift */; };
+		47EE5FBD2B1BFF1700B6907B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EE5FBC2B1BFF1700B6907B /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		477E93E42B1B8F330047F720 /* GamifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		477E93E82B1B8F330047F720 /* GamifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamifyUITests.swift; sourceTree = "<group>"; };
 		477E93EA2B1B8F330047F720 /* GamifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		47EE5FB82B1BF7AD00B6907B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		47EE5FBA2B1BF7C300B6907B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		47EE5FBC2B1BFF1700B6907B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 				477E93D12B1B8F320047F720 /* Persistence.swift */,
 				477E93D32B1B8F320047F720 /* Gamify.xcdatamodeld */,
 				477E93CE2B1B8F320047F720 /* Preview Content */,
+				47EE5FB82B1BF7AD00B6907B /* LoginViewController.swift */,
+				47EE5FBA2B1BF7C300B6907B /* SignUpViewController.swift */,
+				47EE5FBC2B1BFF1700B6907B /* LoginView.swift */,
 			);
 			path = Gamify;
 			sourceTree = "<group>";
@@ -263,9 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47EE5FBB2B1BF7C300B6907B /* SignUpViewController.swift in Sources */,
+				47EE5FBD2B1BFF1700B6907B /* LoginView.swift in Sources */,
 				477E93D52B1B8F320047F720 /* Gamify.xcdatamodeld in Sources */,
 				477E93D22B1B8F320047F720 /* Persistence.swift in Sources */,
 				477E93CB2B1B8F290047F720 /* ContentView.swift in Sources */,
+				47EE5FB92B1BF7AD00B6907B /* LoginViewController.swift in Sources */,
 				477E93C92B1B8F290047F720 /* GamifyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
